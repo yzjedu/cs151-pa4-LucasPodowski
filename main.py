@@ -1,4 +1,15 @@
-
+# Programmers:  Lucas Podowski
+# Course:  CS151, Dr. Zee
+# Due Date: 11/21/2024
+# Programming Assignment:  4
+# Problem Statement: You are creating a program to analyze headlines from the Australian Broadcasting Company (ABC).
+# Your program is going to read in the file chosen by the user, and then allow them to request specific types of analysis on that file.
+# The headlines included in this assignment are real headlines from this real news agency.
+# Data In: filename, output_filename
+# Data Out:  output_file
+# Credits:  https://stackoverflow.com/questions/873327/pythons-most-efficient-way-to-choose-longest-string-in-list
+# and Dr. Zee's lecture
+# Input Files: .txt files
 
 # Purpose: Display the menu selections to user
 # Parameters: none
