@@ -32,7 +32,7 @@ def load_file(file_name):
 # Return: none
 def count_headlines_with_word(headlines, word):
     count = 0
-    search_word = word.lower().strip()
+    search_word = f' {word.lower().strip()} '
     for headline in headlines:
         if search_word in headline:
             count += 1
@@ -42,7 +42,7 @@ def count_headlines_with_word(headlines, word):
 # Parameters: headlines, word, and the output_file
 # Return: none
 def write_headlines_with_word(headlines, word, output_file):
-    search_word = word.lower()
+    search_word = f' {word.lower().strip()} '
     matches = []
     for headline in headlines:
         if search_word in headline.lower():
